@@ -1,1 +1,1 @@
-# Cafe_Nespresso
+Notre application Café Nespresso satisfait toutes les exigences requises, à l'exception du processus de paiement. Nous avons réussi à calculer le montant total du panier et à effectuer le paiement en affichant un popup indiquant "Paiement effectué avec succès !" Cependant, il nous reste à mettre en place le paiement par carte de crédit. 
