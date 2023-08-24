@@ -1,0 +1,41 @@
+.cafe-card {
+    background-color: #424242; /* Darker background color for the cafe card */
+    color: #ffffff; /* Light text color for better contrast */
+    border: 1px solid #343a40; /* Optional border for the cafe card */
+    border-radius: 8px;
+    overflow: hidden; /* Hide any overflow content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 100%;
+    max-width: 1000px; 
+    margin-bottom: 20px;
+}
+
+.cafe-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.cafe-card .card-body {
+    padding: 20px;
+}
+
+.cafe-card .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cafe-card .card-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.cafe-card .btn-primary {
+    background-color: #1976D2; /* Dark blue or any preferred button color */
+    border-color: #1976D2; /* Border color same as background for a cleaner look */
+}
+
+.cafe-card .btn-primary:hover {
+    background-color: #1565C0; /* Slightly darker shade on hover */
+    border-color: #1565C0;
+}

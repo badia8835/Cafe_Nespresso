@@ -1,0 +1,50 @@
+body{
+  background-color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+#homePage {
+  text-align: right; /* Align the text to the right */
+  margin: 10px; /* Add some margin for spacing */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Hidden class */
+.hidden {
+  display: none;
+}
+
+#cafeMooTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#cafeMooTitle:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.ajust-button {
+  margin: 0 30px; /* Adjust spacing between dropdowns */
+}

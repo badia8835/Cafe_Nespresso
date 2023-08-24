@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Mes Favoris</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles_wishlist.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <Header>
+      
+      <a href="index.html">
+        <h2 id="cafeMooTitle">Cafe Nespresso</h2>
+      </a>
+      <h5 id="cafeMooTitle">Mes Favoris</h5>
+      <div class="text-right">
+        <button type="button" class="btn btn-outline-primary position-relative" onclick="window.location.href='cart.html'">
+          Mon panier <span id= "cartSpanButton" style="background-color: aliceblue;" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">0</span>
+        </button>
+      </div>
+    </Header>
+    <div class="text-center p-3">
+      <button type="button" class="btn btn-outline-link btn-outline-danger" id="deleteAllProducts">Vider la liste de favoris</button>
+    </div>
+    
+    <div id="container-products"></div>
+    
+
+    <div id="message"></div>
+
+    <div>
+      <footer id="footer">
+        <p> Projet scolaire Joelle Audet / Mélanie Baril / Badia Sellam 2023 © Tous droits réservés</p>
+      </footer>
+    </div>
+
+  <script src="wishList.js"></script>
+</div>
+</body>
+</html>

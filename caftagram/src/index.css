@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+  background-color: #121212; /* Dark background color */
+  color: #ffffff; /* Light text color for better contrast */
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+.container {
+  padding: 20px; /* Add spacing around the content */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.col {
+  padding: 10px; /* Add spacing between columns */
+}
+
+.header {
+  background-color: #212121; /* Darker background color for the header */
+  padding: 10px 0; /* Add vertical padding */
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cafe-card {
+  background-color: #424242; /* Darker background color for cafe cards */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.cafe-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

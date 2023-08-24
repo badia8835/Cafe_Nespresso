@@ -1,0 +1,47 @@
+/* styles.css */
+
+/* Dark background for the body */
+body {
+    background-color: #121212; /* Dark gray or any preferred dark color */
+    
+}
+ h1{
+    color: #ffffff;
+    font-size: 75px;
+ }
+
+/* Modal customization */
+.modal-content {
+  
+    color:black; /* Light text color for modal content */
+    
+}
+
+.modal-header {
+    border-bottom: 1px solid #343a40; /* Optional border for the modal header */
+}
+
+/* Form input customization */
+.form-control {
+   
+    border: 1px solid #343a40; /* Optional border for form inputs */
+}
+
+/* Button customization */
+.btn-primary {
+    background-color: #1976D2; /* Dark blue or any preferred button color */
+    border-color: #1976D2; /* Border color same as background for a cleaner look */
+}
+
+.btn-secondary {
+    background-color: #757575; /* Dark gray or any preferred secondary button color */
+    border-color: #757575;
+    color: #ffffff;
+}
+
+/* Optional hover effect for buttons */
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #1565C0; /* Slightly darker shade on hover */
+    border-color: #1565C0;
+}

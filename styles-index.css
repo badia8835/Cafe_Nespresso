@@ -1,0 +1,72 @@
+#cafeMooTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#cafeMooTitle:hover {
+  color: green;
+  text-decoration: none;
+}
+
+body{
+  background-color: #222;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+#homePage {
+  text-align: right; /* Align the text to the right */
+  margin: 10px; /* Add some margin for spacing */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  color: #fff;
+}
+
+h5, h2 {
+  background-color: #222;
+  color: #fff;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+}
+
+.dropdown {
+  margin: 0 10px; /* Adjust spacing between dropdowns */
+  padding: 10px;
+}
+
+#textareaComments {
+  background-color: #d6d0d0;
+}
+
+#searchButton{
+  color: #0d6efd;
+  border-color: #0d6efd;
+  background-color: transparent;
+}
+
+ #searchButton:hover{
+  color: white;
+  background-color: #0d6efd;
+}
